@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="assets/css/odometer-theme-default.css">
     <link rel="stylesheet" href="assets/css/style.css">
 
-	<title>Sobre | Willian Nascimento</title>
+	<title>Preus</title>
 
 </head>
 <body class="has-loading-screen">
@@ -23,7 +23,17 @@
     -->
     <div id="brand-navigation">
 
-     
+        <div class="container">
+
+            <div id="brand">
+                <button class="navbar-toggler d-block d-xl-none" type="button">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img src="assets/img/brand-light.png" alt="brand" class="mw-100">
+                </a>
+            </div>
+        </div>
 
     </div>
 
@@ -38,8 +48,30 @@
                 ========================================================================================================
                 -->
                 <li class="nav-item">
-                    <a class="nav-link" href="index" role="button">Home</a>
+                    <a class="nav-link" href="#collapse__home" data-toggle="collapse" role="button">Home</a>
                     <div class="collapse" id="collapse__home">
+                        <ul class="nav flex-column">
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Creative</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="index__app.html">App</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="index__freelancer.html">Freelancer</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="index__portfolio.html">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="index__slider.html">Slider</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="index__video.html">Video</a>
+                            </li>
+
+                        </ul>
                     </div>
                 </li>
 
@@ -47,8 +79,21 @@
                 ========================================================================================================
                 -->
                 <li class="nav-item">
-                    <a class="nav-link active" href="sobre" role="button">Sobre</a>
+                    <a class="nav-link active" href="#collapse__about" data-toggle="collapse" role="button">About</a>
                     <div class="collapse" id="collapse__about">
+                        <ul class="nav flex-column">
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="about__default.html">Default</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about__freelancer.html">Freelancer</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about__minimal.html">Minimal</a>
+                            </li>
+
+                        </ul>
                     </div>
                 </li>
 
@@ -123,13 +168,42 @@
                     </div>
                 </li>
 
+                <!--Blog
+                ========================================================================================================
+                -->
+                <li class="nav-item">
+                    <a class="nav-link" href="#collapse__blog" data-toggle="collapse" role="button">Blog</a>
+                    <div class="collapse" id="collapse__blog">
+                        <ul class="nav flex-column">
+
+                            <li class="nav-item">
+                                <a class="nav-link active" href="blog__list.html">Listing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="blog__detail.html">Post Detail</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </li>
 
                 <!--Contact
                 ========================================================================================================
                 -->
                 <li class="nav-item">
-                    <a class="nav-link" href="contato" role="button">Contato</a>
+                    <a class="nav-link" href="#collapse__contact" data-toggle="collapse" role="button">Contact</a>
                     <div class="collapse" id="collapse__contact">
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact__default.html">Default</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact__left-map.html">Left Map</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact__minimal.html">Minimal</a>
+                            </li>
+                        </ul>
                     </div>
                 </li>
 
@@ -145,15 +219,26 @@
         ================================================================================================================
         ================================================================================================================
         -->
-        <header id="ts-hero" class="ts-block">
+        <header id="ts-hero" class="ts-block ts-height--75vh">
 
-            <div class="container pt-5 pt-lg-0">
+            <div class="container">
 
-                <blockquote class="blockquote">
-                    <h2>Sobre Mim</h2>
-                    <div class="blockquote-footer">Seja bem vindo ao meu portfólio online</div>
-                </blockquote>
+                <h1 data-animate="ts-reveal">
+                    <span class="wrapper">
+                        <span>Jane Doe Here,</span>
+                    </span>
+                    <br>
+                    <span class="wrapper">
+                        <span data-ts-delay=".05s">Your Personal Designer</span>
+                    </span>
+                </h1>
 
+            </div>
+
+            <div class="ts-background" data-bg-parallax="scroll" data-bg-parallax-speed="3">
+                <div class="ts-background-image ts-img-into-bg ts-parallax-element">
+                    <img src="assets/img/bg__woman.jpg" alt="">
+                </div>
             </div>
 
         </header>
@@ -164,30 +249,24 @@
         -->
         <main id="ts-content">
 
-            <section id="story" class="ts-block">
-                <div class="container">
+            <!--About/Services
+            ============================================================================================================
+            -->
+            <section id="about" class="ts-block py-5">
+
+                <div class="container pt-5">
                     <div class="row">
 
-                        <div class="col-md-4">
+                        <div class="col-md-6">
                             <div class="ts-title">
-                                <h2>Minha História</h2>
+                                <h2>About Me</h2>
                             </div>
-                        </div>
-
-                        <div class="col-md-8">
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec nunc vitae nibh
                                 congue pellentesque. Mauris scelerisque quam semper feugiat tincidunt. Pellentesque a
                                 ullamcorper erat, id dapibus velit. Aliquam erat volutpat. Proin at sapien leo. Nullam
                                 fermentum purus ac massa dignissim, in cursus turpis lobortis. Aliquam lacinia ante a
                                 velit viverra scelerisque. Suspendisse nec dui sed tortor mollis rutrum nec at leo.
-                            </p>
-                            <p>
-                                Cras consequat diam diam, ac vehicula ipsum maximus id. Cras maximus mi id dolor suscipit
-                                suscipit. Donec a mi eget dolor elementum egestas. Nullam eu augue ornare, suscipit diam
-                                ut, feugiat purus. Curabitur ultrices magna vitae massa porta vulputate. Cras dignissim
-                                justo tincidunt tellus tempus, quis iaculis sem facilisis. Duis efficitur felis eu eros
-                                convallis facilisis. Pellentesque semper velit vitae purus tincidunt lacinia.
                             </p>
                             <div class="ts-group h5">
                                 <a href="#" class="px-1">
@@ -202,126 +281,46 @@
                             </div>
                         </div>
 
-                    </div>
-                </div>
-            </section>
-
-            <!--Awards
-            ============================================================================================================
-            -->
-            <section id="features" class="ts-block ts-bg-black text-white">
-                <div class="container">
-                    <div class="row">
-
-                        <div class="col-md-4">
+                        <div class="col-md-6 p-3 pl-md-5">
                             <div class="ts-title">
-                                <h2>Awards</h2>
+                                <h2>My Services</h2>
                             </div>
-                        </div>
-
-                        <div class="col-md-8">
-                            <ul class="list list-text list-dashed">
-
-                                <li data-animate="ts-fadeInRight">
-                                    <h5 class="opacity-30"><strong>2010</strong></h5>
-                                    <h4>1st place in Best Interactive Design</h4>
-                                    <p>
-                                        Fusce pretium dui quis est pretium lobortis. Vestibulum eu ex sed nibh
-                                        condimentum tristique eu finibus lorem. Nullam sed eleifend massa.
-                                    </p>
-                                </li>
-                                <!--end Experience block-->
-
-                                <li data-animate="ts-fadeInRight" data-ts-delay=".1s">
-                                    <h5 class="opacity-30"><strong>2012</strong></h5>
-                                    <h4>The Best Photomanipulation</h4>
-                                    <p>
-                                        Vestibulum eu ex sed nibh condimentum tristique eu finibus lorem. Nullam sed
-                                        eleifend massa. Morbi nulla turpis, pharetra
-                                    </p>
-                                </li>
-                                <!--end Experience block-->
-
-                                <li data-animate="ts-fadeInRight" data-ts-delay=".2s">
-                                    <h5 class="opacity-30"><strong>2015</strong></h5>
-                                    <h4>Top 5 Innovative Mobile Applications</h4>
-                                    <p>
-                                        Tristique eu finibus lorem. Nullam sed eleifend massa. Morbi nulla turpis,
-                                        pharetra et nisl eu, pellentesque molestie erat
-                                    </p>
-                                </li>
-                                <!--end Experience block-->
-
+                            <ul class="list-unstyled ts-column-count-2">
+                                <li class="pb-1">Graphic Design</li>
+                                <li class="pb-1">Web Design</li>
+                                <li class="pb-1">Copywriting</li>
+                                <li class="pb-1">Art Direction</li>
+                                <li class="pb-1">Photography</li>
+                                <li class="pb-1">Illustration</li>
+                                <li class="pb-1">Motion Design</li>
+                                <li class="pb-1">Branding</li>
                             </ul>
                         </div>
 
                     </div>
                 </div>
 
-            </section>
-
-            <!--Promo numbers
-            ============================================================================================================
-            -->
-            <section class="ts-block ts-background-repeat" data-bg-image="assets/img/bg__pattern--topo.png">
-                <div class="container ts-promo-numbers">
-                    <div class="row">
-
-                        <div class="col-sm-6 col-md-3">
-                            <div class="ts-promo-number text-center">
-                                <figure class="odometer" data-odometer-final="2">0</figure>
-                                <h5>Clientes</h5>
-                            </div>
+                <div class="ts-background">
+                    <div class="container-fluid h-100">
+                        <div class="row h-100">
+                            <div class="col-md-6"></div>
+                            <div class="col-md-6 h-100 ts-background-repeat" data-bg-image="assets/img/bg__pattern--dot.png"></div>
                         </div>
-                        <!--end Promo number-->
-
-                        <div class="col-sm-6 col-md-3">
-                            <div class="ts-promo-number text-center">
-                                <figure class="odometer" data-odometer-final="2">0</figure>
-                                <h5>Projetos</h5>
-                            </div>
-                        </div>
-                        <!--end Promo number-->
-
-                        <div class="col-sm-6 col-md-3">
-                            <div class="ts-promo-number text-center">
-                                <figure class="odometer" data-odometer-final="0">0</figure>
-                                <h5>Prêmios</h5>
-                            </div>
-                        </div>
-                        <!--end Promo number-->
-
-                        <div class="col-sm-6 col-md-3">
-                            <div class="ts-promo-number text-center">
-                                <figure class="odometer" data-odometer-final="1">0</figure>
-                                <h5>Anos de Experiência</h5>
-                            </div>
-                        </div>
-                        <!--end Promo number-->
-
                     </div>
                 </div>
+
             </section>
-
-            <!--Call to action
-            ============================================================================================================
-            -->
-            <section class="py-5 text-center">
-                <div class="container py-5 my-5">
-
-                    <h2 class="mb-5">Quer ver meus trabalhos?</h2>
-                    <a href="#" class="btn btn-dark">Portfólio</a>
-
-                </div>
-            </section>
-
-            <hr>
 
             <!--Partners
             ============================================================================================================
             -->
-            <section id="partners" class="py-3">
-                <div class="container py-5">
+            <section id="partners" class="ts-block">
+                <div class="container">
+
+                    <div class="ts-title text-center">
+                        <h2>Some of My Clients</h2>
+                    </div>
+
                     <div class="d-block d-md-flex justify-content-around align-items-center text-center ts-partners">
 
                         <a href="#">
@@ -338,6 +337,75 @@
                 </div>
             </section>
 
+            <!--Blockquote
+            ============================================================================================================
+            -->
+            <section id="blockquote" class="ts-block text-white" data-bg-color="#252525">
+                <div class="container">
+
+                    <blockquote class="blockquote">
+                        <h2>Cras nisl lacus, tincidunt vitae neque vitae, interdum iaculis tortor. Orci varius natoque</h2>
+                        <footer class="blockquote-footer text-white">Peter Brown, Weston Interactive</footer>
+                    </blockquote>
+
+                </div>
+            </section>
+
+            <!--Promo numbers
+            ============================================================================================================
+            -->
+            <section class="ts-block ts-background-repeat" data-bg-image="assets/img/bg__pattern--topo.png">
+                <div class="container ts-promo-numbers">
+                    <div class="row">
+
+                        <div class="col-sm-6 col-md-3">
+                            <div class="ts-promo-number text-center">
+                                <figure class="odometer" data-odometer-final="43">0</figure>
+                                <h5>Clients</h5>
+                            </div>
+                        </div>
+                        <!--end Promo number-->
+
+                        <div class="col-sm-6 col-md-3">
+                            <div class="ts-promo-number text-center">
+                                <figure class="odometer" data-odometer-final="68">0</figure>
+                                <h5>Projects</h5>
+                            </div>
+                        </div>
+                        <!--end Promo number-->
+
+                        <div class="col-sm-6 col-md-3">
+                            <div class="ts-promo-number text-center">
+                                <figure class="odometer" data-odometer-final="17">0</figure>
+                                <h5>Awards</h5>
+                            </div>
+                        </div>
+                        <!--end Promo number-->
+
+                        <div class="col-sm-6 col-md-3">
+                            <div class="ts-promo-number text-center">
+                                <figure class="odometer" data-odometer-final="12">0</figure>
+                                <h5>Years Experience</h5>
+                            </div>
+                        </div>
+                        <!--end Promo number-->
+
+                    </div>
+                </div>
+            </section>
+
+            <!--Call to action
+            ============================================================================================================
+            -->
+            <section class="py-5 text-center">
+                <div class="container py-5 my-5">
+
+                    <h2 class="mb-5">Let’s Do Some Work Together!</h2>
+                    <a href="#" class="btn btn-dark">Contact Us</a>
+
+                </div>
+            </section>
+
         </main>
         <!--end #content-->
 
@@ -350,7 +418,7 @@
                 <div class="container">
 
                     <div class="ts-title">
-                        <h2>Sobre Mim</h2>
+                        <h2>About Us</h2>
                     </div>
 
                     <div class="row">
@@ -366,26 +434,27 @@
 
                         <div class="col-sm-6 col-md-4">
                             <address class="ts-text-muted---white">
-                                Bossoroca, RS
+                                1565 Broadcast Drive
                                 <br>
-                                CEP 97850-000
+                                Dulles, VA 20166
                                 <br>
                                 <br>
-                                <strong>Tel/Whats:</strong> <a href="https://api.whatsapp.com/send?phone=+5555991039854">(55) 99103-9854</a>
+                                <strong>Tel:</strong> +1 703-996-1212
                                 <br>
-                                <strong>Email:</strong> <a href="mailto:williannasc@live.com">contato@williannasc.com.br</a>
+                                <strong>Email:</strong> <a href="#">hello@example.com</a>
                                 <br>
-                                <strong>Instagram:</strong> <a href="https://www.instagram.com/willianmnasc/">willianmnasc</a>
+                                <strong>Skype:</strong> <a href="#">wearepreus</a>
                                 <br>
                             </address>
                         </div>
 
                         <div class="col-sm-6 col-md-3">
                             <nav class="nav flex-column">
-                                <a class="nav-link" href="index">Home</a>
-                                <a class="nav-link" href="sobre">Sobre</a>
+                                <a class="nav-link" href="#">Home</a>
+                                <a class="nav-link" href="#">About us</a>
                                 <a class="nav-link" href="#">Portfolio</a>
-                                <a class="nav-link" href="contato">Contato</a>
+                                <a class="nav-link" href="#">Services</a>
+                                <a class="nav-link" href="#">Contact</a>
                             </nav>
                         </div>
 
@@ -395,7 +464,7 @@
 
             <section>
                 <div class="container py-5">
-                    <small>© 2020 Willian Nascimento - Todos os Direitos Reservados</small>
+                    <small>© 2019 All Rights Reserved</small>
                 </div>
             </section>
 
